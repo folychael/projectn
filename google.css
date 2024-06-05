@@ -1,0 +1,64 @@
+*{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu div{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.sign-in{
+    background-color: blue;
+    padding: 10px 30px;
+    margin: 5px 5px;
+    border-radius: 20px;
+}
+.mail{
+    padding: 5px 5px;
+    margin:5px;
+}
+.images{
+    padding:5px 5px;
+    margin:5px 5px;
+}
+.bi-list{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.googleimg{
+    margin: 0px 500px;
+    width: 400px;
+    position: relative;
+}
+.search-bar{
+    margin: 40px 450px;
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+
+}
+.object1{
+    top: 50%;
+    transform: translate(-880px,80px);
+    right: 10px;
+    font-size: 18px;
+    color: #aaa;
+}
+.object2{
+    top: 50%;
+    transform: translate(-420px,80px);
+    right: 10px;
+    font-size: 18px;
+    color: #aaa;
+}
+.object3{
+    top: 50%;
+    transform: translate(-390px,80px);
+    right: 10px;
+    font-size: 18px;
+    color: #aaa;
+}
