@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .header{
@@ -208,6 +209,10 @@
     margin-top: 3px;
     
 }
+.all div ul li p a{
+    color: white;
+
+}
 
 .swiper-sect{
     background-color: #e3e6e6;
@@ -225,14 +230,14 @@
     background-size: cover;
   }
 #swiper1{
-    background-image: url(amazonimg1.jpeg);
+    background-image: url(./images/amazonimg1.jpeg);
 }#swiper2{
-    background-image: url(amazonimg2.jpg);
+    background-image: url(./images/amazonimg2.jpg);
 }
 #swiper3{
-    background-image: url(amazonimg3.jpeg);
+    background-image: url(./images/amazonimg3.jpeg);
 }#swiper4{
-    background-image: url(amazonimg4.jpg);
+    background-image: url(./images/amazonimg4.jpg);
 }
 
 .under-swipe{
@@ -284,49 +289,140 @@
     background-position: center;
     background-size: cover;
 }
-.box--3 .uswipe-box nav:first-child{
-    border: 1px solid black;
-    width: 100%;
+.box--3 .uswipe-box nav:first-child .box51{
+    width: 275px;
     height: 150px;
-    margin: 0px 20px;
+    margin:0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.box--3 .uswipe-box div{
+    display: flex;
+}
+.box--3 .uswipe-box div nav{
+    width: 90px;
+    height: 120px;
+    margin: 3px 3px;
+}
+#box5{
+    height: 80px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+
 #box1{
-    background-image: url(gaming1.jpg);
+    background-image: url(./images/gaming1.jpg);
 }
 #box2{
-    background-image: url(gaming2.jpg);
+    background-image: url(./images/gaming2.jpg);
 }
 #box3{
-    background-image: url(gaming3.jpg); 
+    background-image: url(./images/gaming3.jpg); 
 }
 #box4{
-    background-image: url(gaming4.jpg);  
+    background-image: url(./images/gaming4.jpg);  
 }
 #box21{
-    background-image: url(box21.jpg)
+    background-image: url(./images/box21.jpg)
 }
 #box22{
-    background-image: url(box22.jpg)
+    background-image: url(./images/box22.jpg)
 }
 #box23{
-    background-image: url(box23.jpg)
+    background-image: url(./images/box23.jpg)
 }
 #box24{
-    background-image: url(box24.jpg);
+    background-image: url(./images/box24.jpg);
 }
 #box41{
-    background-image: url(ref1.jpg);
+    background-image: url(./images/ref1.jpg);
 }
 #box42{
-    background-image: url(ref2.jpg);
+    background-image: url(./images/ref2.jpg);
 }
 #box43{
-    background-image: url(ref3.jpg);
+    background-image: url(./images/ref3.jpg);
 }
 #box44{
-    background-image: url(ref4.jpg);
+    background-image: url(./images/ref4.jpg);
 }
+.box51{
+    background-image: url(./images/smartphone.jpg);
+}
+.box52{
+    background-image: url(./images/tablets.jpg);
+}
+.box53{
+    background-image: url(./images/laptops.jpg);
+}
+.box54{
+    background-image: url(./images/tvs.jpg);
+}
+#box511{
+    background-image: url(./images/tech.jpg);
+}
+#box512{
+    background-image: url(./images/adventuregear.jpg);
+}
+#box513{
+    background-image: url(./images/uniquefinds.jpg);
+}
+#box514{
+    background-image: url(./images/health\ and\ wellness.jpg);
+}
+
+#box61{
+    background-image: url(./images/outdoor.jpg);
+}
+#box62{
+    background-image: url(./images/toys.jpg);
+}
+#box63{
+    background-image: url(./images/action.jpg);
+}
+#box64{
+    background-image: url(./images/pretend.jpg);
+}
+#box65{
+    background-image: url(./images/desktop.jpg);
+}
+#box66{
+    background-image: url(./images/laptop.jpg);
+}
+#box67{
+    background-image: url(./images/harddrive.jpg);
+}
+#box68{
+    background-image: url(./images/pcaccessories.jpg);
+}
+#box69{
+    background-image: url(./images/under10.jpg);
+}
+#box70{
+    background-image: url(./images/under20.jpg);
+}
+#box71{
+    background-image: url(./images/under50.jpg);
+}
+#box72{
+    background-image: url(./images/deals.jpg);
+}
+#box73{
+    background-image: url(./images/pcgaming.jpg);
+}
+#box74{
+    background-image: url(./images/xbox.jpg);
+}
+#box75{
+    background-image: url(./images/playstation.jpg);
+}
+#box76{
+    background-image: url(./images/nintendo.jpg);
+}
+
 .under-swipe div ul li .alikebox p:last-child{
     font-size: 12px;
     font-family:Arial, Helvetica, sans-serif;
@@ -345,7 +441,7 @@
 
 
 .under-swipe div ul li .box-3 div{
-   background-image: url(box31.jpg);
+   background-image: url(./images/box31.jpg);
     height: 300px;
     background-position: center;
     background-size: cover;
@@ -354,7 +450,7 @@
 
 }
 .under-swipe div ul li .box-8 div{
-    background-image: url(box81.jpg);
+    background-image: url(./images/box81.jpg);
      height: 300px;
      background-position: center;
      background-size: cover;
@@ -392,13 +488,13 @@
     background-size: cover;
   }
   #swiper-section1{
-    background-image: url(swiper-sec1.png);
+    background-image: url(./images/swiper-sec1.png);
     background-size: cover;
   }
   #swiper-section2{
-    background-image: url(swiper-sec2.png);
+    background-image: url(./images/swiper-sec2.png);
   }
   #swiper-section3{
-    background-image: url(swiper-sec3.png);
+    background-image: url(./images/swiper-sec3.png);
   }
  
